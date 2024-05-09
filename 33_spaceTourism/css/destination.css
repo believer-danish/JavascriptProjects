@@ -344,19 +344,19 @@ p {
 /* - - - - - - - */
 
 body {
-  background-image: url(/assets/destination/background-destination-mobile.jpg);
+  background-image: url(../assets/destination/background-destination-mobile.jpg);
   background-size: cover;
   background-position: bottom center;
 }
 
 @media (min-width: 35em) {
   body {
-    background-image: url(/assets/destination/background-destination-tablet.jpg);
+    background-image: url(../assets/destination/background-destination-tablet.jpg);
   }
 }
 @media (min-width: 54em) {
   body {
-    background-image: url(/assets/destination/background-destination-desktop.jpg);
+    background-image: url(../assets/destination/background-destination-desktop.jpg);
   }
 }
 
