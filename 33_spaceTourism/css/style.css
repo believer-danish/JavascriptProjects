@@ -429,19 +429,19 @@ h1 span {
 /* - - - - - - - */
 
 body {
-  background-image: url(/assets/home/background-home-mobile.jpg);
+  background-image: url(../assets/home/background-home-mobile.jpg);
   background-size: cover;
   background-position: bottom center;
 }
 
 @media (min-width: 35em) {
   body {
-    background-image: url(/assets/home/background-home-tablet.jpg);
+    background-image: url(../assets/home/background-home-tablet.jpg);
   }
 }
 @media (min-width: 54em) {
   body {
-    background-image: url(/assets/home/background-home-desktop.jpg);
+    background-image: url(../assets/home/background-home-desktop.jpg);
   }
 }
 
@@ -492,7 +492,7 @@ body {
   aspect-ratio: 1/1;
   right: 2rem;
   top: 2rem;
-  z-index: 2000;
+  z-index: 200;
   background-image: url(../assets/shared/icon-hamburger.svg);
   background-repeat: no-repeat;
   background-size: cover;
