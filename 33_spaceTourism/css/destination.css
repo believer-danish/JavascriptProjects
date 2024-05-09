@@ -344,19 +344,19 @@ p {
 /* - - - - - - - */
 
 body {
-  background-image: url(../assets/destination/background-destination-mobile.jpg);
+  background-image: url(/assets/destination/background-destination-mobile.jpg);
   background-size: cover;
   background-position: bottom center;
 }
 
 @media (min-width: 35em) {
   body {
-    background-image: url(../assets/destination/background-destination-tablet.jpg);
+    background-image: url(/assets/destination/background-destination-tablet.jpg);
   }
 }
 @media (min-width: 54em) {
   body {
-    background-image: url(../assets/destination/background-destination-desktop.jpg);
+    background-image: url(/assets/destination/background-destination-desktop.jpg);
   }
 }
 
@@ -406,14 +406,14 @@ body {
   right: 2rem;
   top: 2rem;
   z-index: 200;
-  background-image: url(/assets/shared/icon-hamburger.svg);
+  background-image: url(../assets/shared/icon-hamburger.svg);
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
 }
 
 .nav-background {
-  background-image: url(/assets/shared/icon-close.svg);
+  background-image: url(../assets/shared/icon-close.svg);
 }
 .nav-translate {
   translate: 0% !important;
