@@ -122,6 +122,7 @@ const gridCon = document.querySelector(".grid-container");
 const ulCrew = document.querySelector("article nav ul");
 const allLiCrew = document.querySelectorAll("article nav ul li");
 const crewImage = document.querySelector(".crew-image img");
+const crewImage2 = document.querySelector(".crew-image :last-child");
 const articleH1Crew = document.querySelector("article h1 span");
 const articlePCrew = document.querySelector("article  p");
 const upperUl = document.querySelector(".upper-nav ");
@@ -146,7 +147,7 @@ upperUl.addEventListener("click", (ele) => {
       if (innerWidth < 864) {
         crewImage.src = data.technology[indx].images.landscape;
     } else {
-      crewImage.src = data.technology[indx].images.portrait;
+      crewImage2.src = data.technology[indx].images.portrait;
     }
 
     articleH1Crew.innerText = data.technology[indx].name;
