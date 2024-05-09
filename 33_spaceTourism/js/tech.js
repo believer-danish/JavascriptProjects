@@ -144,8 +144,8 @@ upperUl.addEventListener("click", (ele) => {
       e.classList.remove("active");
     });
 
-      if (innerWidth < 864) {
-        crewImage.src = data.technology[indx].images.landscape;
+    if (innerWidth < 864) {
+      crewImage.src = data.technology[indx].images.landscape;
     } else {
       crewImage2.src = data.technology[indx].images.portrait;
     }
